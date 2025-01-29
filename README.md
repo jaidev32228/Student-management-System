@@ -1,47 +1,82 @@
-# Student-management-System
-Development Tools
+# Student Management System
 
-1. Java Development Kit (JDK): Version 11 or higher
-2. Eclipse: Version 2020-06 or higher (or any other IDE of your choice)
-3. NetBeans: Version 12 or higher (optional)
-4. IntelliJ IDEA: Version 2020.2 or higher (optional)
+> This is a simple web-based open source software written in PHP and JavaScript. This was specifically written for school or educational organization. You can easily install this system in your own server.
 
-Database Tools
+> If you find any bug or added new feature feel free to send a pull request.
 
-1. MySQL: Version 8.0 or higher
-2. MySQL Workbench: Version 8.0 or higher (optional)
-3. Oracle Database: Version 19c or higher (optional)
-4. PostgreSQL: Version 13 or higher (optional)
+> If you have any suggestions feel free create issues.
 
-Version Control Tools
+- [Demo](#demo)
+- [Feature](#feature-of-student-management-system)
+- [Technology](#technology)
+- [Screen Shot](#screen-shot)
+- [Installation](#installation)
 
-1. Git: Version 2.28 or higher
-2. GitHub: For storing and managing code repositories
+Demo
+-----------------------------
+- **URL** - http://ems.tserm.com
+- **Username** -  github_user
+- **Password** - guser
 
-Build and Deployment Tools
+Feature of Student Management System
+-----------------------------
+- Add Student Information
+- Admit Student In Multiple Program
+- Student Payment System
+- Student Attendence System
+- Generate Student Id Card
+- Program Add
+- Exam Add
+- Add Exam Result Add and generate Auto Ranking
+- Sending Result by SMS
+- Sending Notice By SMS
+- Institute Report (Payment,Expence,Income,Profit,Attendence)
+- All Activity are Auto Saved and Admin or User Can See Change Previous and Present Change
 
-1. Maven: Version 3.6 or higher
-2. Gradle: Version 6.7 or higher (optional)
-3. Apache Tomcat: Version 9.0 or higher (for deploying web applications)
+Technology
+-----------------------
+- PHP
+- Ajax
+- Java Script
+- Bootstrap
+- Html
+- css
+- mysql
 
-Testing Tools
+Screen Shot
+-----------------------
+![screenshot](https://raw.githubusercontent.com/amirhamza05/Student-Management-System/master/screen_shot/login_screen.png) Login Screen | ![screenshot](https://raw.githubusercontent.com/amirhamza05/Student-Management-System/master/screen_shot/dashboard.PNG) Dashboard |
+|-|-|
 
-1. JUnit: Version 5.7 or higher
-2. TestNG: Version 7.3 or higher (optional)
-3. Mockito: Version 3.6 or higher (optional)
+![screenshot](https://raw.githubusercontent.com/amirhamza05/Student-Management-System/master/screen_shot/user_profile.PNG) User Profile | ![screenshot](https://raw.githubusercontent.com/amirhamza05/Student-Management-System/master/screen_shot/student_profile.PNG) Student Profile |
+|-|-|
 
-Security Tools
+![screenshot](https://raw.githubusercontent.com/amirhamza05/Student-Management-System/master/screen_shot/id_card.PNG) ID Card | ![screenshot](https://raw.githubusercontent.com/amirhamza05/Student-Management-System/master/screen_shot/print_id_card.PNG) Print ID Card | 
+|-|-|
 
-1. Spring Security: Version 5.4 or higher
-2. OWASP ZAP: Version 2.10 or higher (optional)
+![screenshot](https://raw.githubusercontent.com/amirhamza05/Student-Management-System/master/screen_shot/monthly_attendence_report.PNG) Student Attendence Report | ![screenshot](https://raw.githubusercontent.com/amirhamza05/Student-Management-System/master/screen_shot/payment_dashboard.PNG) Payment Dashboard |
+|-|-|
 
-Frontend Tools (optional)
+![screenshot](https://raw.githubusercontent.com/amirhamza05/Student-Management-System/master/screen_shot/payment_status_list.PNG) Payment Status List | ![screenshot](https://raw.githubusercontent.com/amirhamza05/Student-Management-System/master/screen_shot/payment_money_recept.PNG) Payment Money Recept |
+|-|-|
 
-1. Angular: Version 11 or higher
-2. React: Version 17 or higher
-3. Vue.js: Version 3.0 or higher
+![screenshot](https://raw.githubusercontent.com/amirhamza05/Student-Management-System/master/screen_shot/sms_dashboard.PNG) SMS Dashboard | ![screenshot](https://raw.githubusercontent.com/amirhamza05/Student-Management-System/master/screen_shot/compare_user_activity_data.PNG) Compare User Activity |
+|-|-|
 
-API Documentation Tools (optional)
+![screenshot](https://raw.githubusercontent.com/amirhamza05/Student-Management-System/master/screen_shot/theme_change.PNG) Multiple Themes | ![screenshot](https://raw.githubusercontent.com/amirhamza05/Student-Management-System/master/screen_shot/update_setting.png) Update Institute Information |
+|-|-|
 
-1. Swagger: Version 2.9 or higher
-2. OpenAPI: Version 3.0 or higher
+Installation
+-----------------------
+- Clone this project from https://github.com/amirhamza05/Student-Management-System
+- After clone you can see this installation screen
+![screenshot](https://raw.githubusercontent.com/amirhamza05/Student-Management-System/master/screen_shot/install_screen.png)
+
+- Fill this database setup form and when you install button click then if information is correct then you see install success screen
+![screenshot](https://raw.githubusercontent.com/amirhamza05/Student-Management-System/master/screen_shot/install_success.png)
+
+- After this your install is complete then you can login this system. Your Default id and password is 'admin' and 'admin'.
+
+
+
+
